@@ -1,0 +1,58 @@
+ul li {
+
+    display:block;
+    height: 25px;
+    width: 35px;
+    background-image: url('512.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    margin-top: 8px;
+    margin-left:25px;
+    padding-left: 40px;
+}
+ul {
+    width: 200px;
+    height: 200px;
+}
+
+
+.ce{display: table;
+
+    margin-top: 20px;
+
+}
+.ce1{ width: 30%;
+    display:inline-table;
+    margin: 22px;
+    padding:8px;
+    text-align: justify;
+}
+.ce2{ width: 30%;
+    display:inline-table;
+    margin: 22px;
+    padding:8px;
+    float: right;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: lightblue;
+    }
+
+
+
+    .ce1{
+       width: 70%;
+        float: left;
+
+    }
+   .ce2{
+
+       width: 100%;
+   }
+ .me{
+     float:right;
+ }
+}
+
+
